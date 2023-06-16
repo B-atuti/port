@@ -1,0 +1,192 @@
+*{
+    padding: 10px;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.body{
+    border-style:double;color: magenta; height: 1000px; width: 1000px;
+}
+.container{
+    background-image:url(file:///home/brian/Pictures/images.png);height: 800px;
+    border-style:double;color:pink; 
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    background-position:center ;
+}
+.logo{
+    font-weight: bolder;
+    font-size: 30px;
+    color:beige;
+    padding-left: 1px;
+}
+span{
+     color:magenta;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 50px;
+    padding-left:10%;
+    padding-right:0%;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    list-style-type:none;
+}
+nav ul li a:hover{
+    color: aqua;
+    transition:.1s;   
+    text-decoration: none;
+}
+.btn{
+    background-color:magenta ;
+    color: beige;
+    font-weight:bold;
+    padding: 10px 20px;
+    border:1px solid transparent;
+    border-radius: 25px;
+    transition:transform.4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position:absolute;
+    top:20%;
+    left:5%;
+    transition:-50%;
+    padding: 2%;
+}
+h1{
+    color:beige;
+    margin: 1px 0px 1px;
+    font-size: 45px;
+}
+h3{
+    color:beige;
+    font-size: 25px;
+    margin: bottom 10px; 
+}
+h5{
+    color:magenta;
+    font-size: 15px;
+    letter-spacing: 2px;
+
+}
+.newslatter form{
+    width: 40px;
+    max-width: 80%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 200px;
+    padding: 10px 280px 10px 15px;
+    border: 1px solid magenta;
+    border-radius: 25px;
+    background-color: beige;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display:inline-block;
+    padding:10px 15px;
+    border-radius: 45px;
+    background-color: magenta;
+    color:beige;
+    border: none;
+    outline: none;
+    margin-left: 225px;
+    margin-top: -36px;
+    cursor:context-menu;
+}
+.about{
+    background-color: black;
+    width:60%;
+    margin-top: 300px;
+    margin-left: 10%;
+}
+.about-text{
+    width:400px;
+}
+.about img{
+    height: 300px;
+    width: 200px;
+    border-radius: 30px;
+    border: 1px solid beige;
+}
+.main{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    font-size: 15px;
+
+
+}.about-text h3{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.about-text h5{
+    color: beige;
+    font-size: larger;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+ .about-text p{
+    color: rgb(63, 16, 163);
+    line-height: 25px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+ }
+ button{
+    background-color: magenta;
+    color: beige;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: .2s;
+    font-weight: bold;
+ }
+ button:hover{
+    background-color: transparent;
+    border: 2px solid beige;
+ }
+ .service{
+    background-image:url(file:///home/brian/Pictures/jj.jpg);
+    width:100%;
+    padding:100px 0px;
+ }
+ .title h3{
+    color:beige;
+    font-size: 50px; 
+    width:1000px;
+    margin: -50px; 
+    padding-left: 40px;
+    text-align: center;
+ }
+ .box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+ }
+ .card{
+    height: 350px;
+    width:330px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background-color: sienna;
+ }
+ .h5{
+    font-size: 35px;
+    margin-bottom: 10px;
+ }
